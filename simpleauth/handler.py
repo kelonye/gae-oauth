@@ -90,7 +90,7 @@ class SimpleAuthHandler(object):
     },           'https://api.linkedin.com/uas/oauth/accessToken'),
     'twitter'     : ('oauth1', {
        'request': 'https://api.twitter.com/oauth/request_token', 
-       'auth'   : 'https://api.twitter.com/oauth/authenticate?{0}'
+       'auth'   : 'https://api.twitter.com/oauth/authorize?{0}'
     },            'https://api.twitter.com/oauth/access_token'),
     'foursquare': ('oauth2',
        'https://foursquare.com/oauth2/authenticate?{0}',
